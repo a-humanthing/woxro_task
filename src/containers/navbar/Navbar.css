@@ -1,0 +1,41 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+}
+.navItemContainer {
+  display: flex;
+  align-items: center;
+}
+
+.menuicon {
+  transform: scale(1.2);
+}
+.logo {
+  object-fit: cover;
+  max-width: 190px;
+  max-height: 71px;
+}
+@media screen and (max-width: 760px) {
+  .navRight {
+    display: none;
+  }
+  .navLeft {
+    width: 100vw;
+    justify-content: space-between;
+  }
+}

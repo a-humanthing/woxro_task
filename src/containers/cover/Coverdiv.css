@@ -1,0 +1,41 @@
+.coverImgDiv {
+  background-image: url("https://www.xentice.com/static/media/office.27bb9079.jpg");
+  height: 650px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bussinessCard {
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  padding: 2rem;
+  width: 410px;
+}
+.cardHead {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.inputs {
+  height: 4rem;
+}
+.searchButton {
+  background-color: #012b72;
+}
+@media screen and (max-width: 460px) {
+  .coverImgDiv {
+    background-color: white;
+    background-image: none;
+    height: 50vh;
+  }
+  .bussinessCard {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 0;
+  }
+}

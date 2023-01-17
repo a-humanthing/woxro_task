@@ -1,0 +1,74 @@
+.carouselContainer {
+  margin: 40px 10px 10px;
+}
+.carouselBody {
+  overflow: scroll;
+}
+::-webkit-scrollbar .carouselBody {
+  display: none;
+}
+.carouselCard {
+  border: 1px solid #eee;
+  background-color: #fff;
+  min-width: 270px;
+  max-width: 300px;
+  max-height: 400px;
+  width: 270px;
+  border-radius: 5px;
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: 8px;
+  overflow: scroll;
+}
+.categoryIcon {
+  max-width: 30px;
+  min-width: 30px;
+  background-color: black;
+}
+.carouselHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: large;
+}
+.exploreDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.carouselCardContainer {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  /* margin-top: 10px; */
+}
+.cardImage {
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+.carouselHeadTitle {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.cardBody {
+  padding: 1rem;
+}
+.rateText {
+  color: red;
+}
+.carouselCard:hover {
+  box-shadow: 1px 2px 7px rgb(146, 144, 144);
+  -webkit-transition: box-shadow 0.3s ease-in;
+}

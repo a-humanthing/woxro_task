@@ -1,0 +1,31 @@
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.menuBarContainer {
+  display: flex;
+  overflow: auto;
+}
+.menuIcon {
+  max-width: 30px;
+  max-height: 30px;
+}
+.menuBarItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  min-width: 9.2rem;
+  font-size: small;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.menuBarItem:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
